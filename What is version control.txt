@@ -1,0 +1,49 @@
+What is version control?
+- Allows people to collaborate on same peice of software simultaneously.
+- Can rollback whenever there is a mistake in code.
+- Stores different versions of the same file.
+- Continuation of work.
+
+What is Git?
+- A piece of version control software which gives all the benifits of version control but not limited to that.
+- Codespaces (Github)
+
+Creating a repo from command line:
+- 
+
+Checking status:
+-git status
+
+Staging files to be commited:
+- git add filename.type
+
+Commiting files:
+-git commit -m message for commit //creates a local commit
+
+Pushing to the branch of repo:
+-git push origin branch_name//pushes all the commits
+
+Getting to know what is the push directory and fetch directory:
+-git remote -v
+
+Adding the push directory:
+-git init
+-git remote add "repository address"
+
+Cloning a repo on local:
+-git clone "repository address"
+
+Syncing the changes:
+-git pull
+
+Branching a repo:
+-git branch "branch_name"
+-git push origin "branch_name"
+-git branch //tells which be=ranch you are working on
+
+Changing to work on a different branch:
+-git checkout branch_name
+
+Merging two branches:
+-git checkout "main branch"
+-git merge "secondary branch"
