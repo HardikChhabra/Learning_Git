@@ -8,8 +8,9 @@ What is Git?
 - A piece of version control software which gives all the benifits of version control but not limited to that.
 - Codespaces (Github)
 
-Creating a repo from command line:
-- 
+Creating a repo on local and connecting to a repo online
+-git init
+-git remote add "repository address"
 
 Checking status:
 -git status
@@ -26,7 +27,7 @@ Pushing to the branch of repo:
 Getting to know what is the push directory and fetch directory:
 -git remote -v
 
-Adding the push directory:
+Adding the push directory to a local folder:
 -git init
 -git remote add "repository address"
 
